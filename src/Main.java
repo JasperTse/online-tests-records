@@ -18,7 +18,6 @@ public class Main {
     }
 
     public static int countMethods(int[] energy, int l, int r) {
-        int n = energy.length;
         int maxSum = 0;
 
         for (int num : energy) {
